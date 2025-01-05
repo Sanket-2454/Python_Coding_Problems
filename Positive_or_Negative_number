@@ -1,0 +1,7 @@
+num = 15
+if num > 0:
+  print("positive number")
+elif:
+  print("negativ number")
+else:
+  print("zero")
