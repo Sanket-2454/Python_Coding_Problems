@@ -4,3 +4,8 @@ sum = 0
 for i in range(num+1):
   sum = sum + i
 print(sum)
+
+# by using the formula
+num = int(input("Enter the number"))
+sum = int((num*(num+1))/2)
+print(sum)
