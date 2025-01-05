@@ -9,3 +9,12 @@ print(sum)
 num = int(input("Enter the number"))
 sum = int((num*(num+1))/2)
 print(sum)
+
+# by using the recurssion
+def recursum(number):
+  if number == 0:
+    return number
+  return number + recursum(number-1)
+
+number = int(input("Enter the number:"))
+print(recursum(number))
